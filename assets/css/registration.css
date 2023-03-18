@@ -1,0 +1,170 @@
+body{
+	background-color: #f2f6f7;
+	    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 20px;
+    color: #a3aaae;
+}
+.login-brand{
+	height:48px;
+}
+a {
+    color: #ee6123;
+    text-decoration: none;
+}
+.login-container{
+    width: 415px;
+    margin: 40px auto;
+    border: 1px solid #e3e6e7;
+    border-radius: 4px;
+    padding: 50px 53px;
+    background: #fff;
+    text-align: center;
+}
+.tagline {
+    font-weight: 500;
+    font-size: 19px;
+    color: #4f565a;
+    text-align: center;
+    font-family: "Brandon Grotesque","proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin:0 auto;
+}
+.susi-with {
+    display: block;
+    text-align: center;
+    color: #8f989d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.social-sign-in {
+    text-align: center;
+    margin:0 auto;
+}
+.button.google-susi-btn:hover {
+    border-color: #0d43c0 !important;
+}
+
+.button.susi-btn:hover {
+    background-color: #f9f9f9;
+}
+.button.google-susi-btn {
+    border-color: #4285f4 !important;
+}
+.button.susi-btn {
+    width: 90px;
+    color: #8f989d;
+    background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #4285f4 !important;
+    height: 40px;
+    padding: 0;
+    line-height: 36px;
+    margin: 5px 4px;
+}
+.button:hover {
+    text-decoration: none;
+}
+a:active {
+    color: #331204;
+    text-decoration: none;
+}
+a:hover {
+    color: #98370c;
+    text-decoration: underline;
+}
+a:hover, a:focus, a:active {
+    outline: 0 !important;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 16px;
+    margin: 0;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: brandon-grotesque,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 20px;
+    text-transform: uppercase;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #ee6123;
+    -webkit-box-shadow: 0 0 0 1px #ee6123;
+    box-shadow: 0 0 0 1px #ee6123;
+    text-rendering: optimizelegibility;
+    border: 0 !important;
+    background: #fff;
+}
+.separator {
+    margin: 15px 0;
+    font-size: 14px;
+    font-weight: 300;
+    margin:0 auto;
+    position: relative;
+    text-transform: uppercase;
+}
+.t-center {
+    text-align: center;
+    width: 100%;
+}
+.separator:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #e3e6e7;
+    position: absolute;
+    top: 50%;
+}
+.separator span {
+    padding: 5px 20px;
+    background: #fff;
+    color: #8f989d;
+    position: relative;
+}
+#usr,#pass,#eml,#pass_conf{
+	font-size: 14px;
+}
+.error_text{
+    color:#d0021b;
+    text-align: left;
+}
+
+.forgot-pass {
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    font-size: 12px;
+}
+.label-pass{
+    position: relative;
+} 
+.button.button-primary:hover {
+    background-color: #e45212;
+    cursor: pointer;
+}
+.button.sign-up-in {
+    font-size: 13px;
+    margin-top: 15px;
+}
+.button.button-primary {
+    color: #fff;
+    background-color: #ee6123;
+    width:100%;
+    height:45px;
+}
+.button:hover {
+    text-decoration: none;
+}
+.password-tip{
+	text-align: left;
+}
+.switch{
+	margin:6px 0;
+}
